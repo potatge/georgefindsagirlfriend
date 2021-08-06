@@ -463,9 +463,9 @@ init python:
         gui.nvl_name_width = 305
         gui.nvl_name_xpos = 325
 
-        gui.nvl_text_width = 915
+        gui.nvl_text_width = 1200#915
         gui.nvl_text_xpos = 345
-        gui.nvl_text_ypos = 5
+        gui.nvl_text_ypos = 20#5
 
         gui.nvl_thought_width = 1240
         gui.nvl_thought_xpos = 20
