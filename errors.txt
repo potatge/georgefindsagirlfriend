@@ -7,4 +7,4 @@ File "game/01.rpy", line 17: end of line expected.
                  ^
 
 Ren'Py Version: Ren'Py 7.4.7.1862
-Fri Aug  6 12:04:32 2021
+Fri Aug  6 12:05:33 2021
