@@ -56,10 +56,43 @@ label start:
    "Although I felt very exposed, I knew that I could always retreat inside my shell if I was threatened."
    "I much prefer swimming to walking. The wooden surface was hot and hard and it took me a long time to reach the other side.
    I finally reached an expanse of native ground cover which was gentle to the touch and much cooler."
-   "Botanists refer to it as dichondra repens, but my owner called it Tom Thumb."
+   "Botanists refer to it as {i}dichondra repens{/i}, but my owner called it Tom Thumb."
    nvl clear
+   scene turtle03 with fade:
+      yalign 0.6
+      linear 15.0 yalign 0.0
    "As I crossed it, I disturbed a piping shrike having a bath but, fortunately, she was more interested in staying cool than pecking me."
+   "Eventually,{w} I came to a giant tree,{w} with its low-hanging branches,{w} large bulging roots,{w} and white fruit that tasted like honey—my owner called it a white mulberry."
+   nvl clear 
+   "A litter of dried leaves accumulated under the tree, smothering the ground cover and the weeds alike.{w} Only some hardy mint plants were holding their own, enjoying the shady refuge and lack of competition."
+   "The leaves rustled and crunched under my shell,{w} signaling to everyone that I was on the move."
+   "Fortunately,{w} my owner had not yet noticed my absence from the pond."
+   nvl clear 
+   scene turtle04 with dissolve:
+      yalign 0.6
+      linear 15.0 yalign 0.0
+   pause
+   "I had ventured as far as the giant tree before and knew the gate was not much further."
+   
+   "There was just one more tree to pass which had large green fruit—my owner called it an avocado."
+   "Its fruits were heavy enough to crack my shell if they fell on me, so I passed by quickly without looking up."
+   "The gate beckoned just one meter beyond.{w} My heart raced as I passed through and entered the side yard for the first time."
+   nvl clear 
+   "There was another gate,{w} presumably to the outside world,{w} but it was closed,{w} so I kept walking straight ahead."
+   "Eventually, I came to another gate which fortunately was open."
+   "A rush of blood went to my neck.{w} I could smell a great expanse of water, but it had a different aroma to my pond."
+   "Approaching the water,{w} I was on the edge of my carapace.
+   {p}Surely I would find a girlfriend in such a large pond.
+   {p} I dived in."
+   nvl clear 
+   scene turtle05 with dissolve:
+      yalign 0.0
+      linear 15.0 yalign 0.6
+   pause
 
    # This ends the game.
+
+
+
 
    return
