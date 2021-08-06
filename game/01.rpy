@@ -1,10 +1,7 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-
+﻿init python:
+    def callbackcontinue(ctc, **kwargs):
+        if ctc == "end":
+            renpy.music.play("audio/sfx_blip_01.mp3",channel="sound")
 # The game starts here.
 
 label start:
@@ -62,6 +59,9 @@ label start:
       yalign 0.6
       linear 15.0 yalign 0.0
    "As I crossed it, I disturbed a piping shrike having a bath but, fortunately, she was more interested in staying cool than pecking me."
+   menu:
+      "go past piping shrike"
+      "hide"
    "Eventually,{w} I came to a giant tree,{w} with its low-hanging branches,{w} large bulging roots,{w} and white fruit that tasted like honey—my owner called it a white mulberry."
    nvl clear 
    "A litter of dried leaves accumulated under the tree, smothering the ground cover and the weeds alike.{w} Only some hardy mint plants were holding their own, enjoying the shady refuge and lack of competition."
@@ -83,13 +83,62 @@ label start:
    "A rush of blood went to my neck.{w} I could smell a great expanse of water, but it had a different aroma to my pond."
    "Approaching the water,{w} I was on the edge of my carapace.
    {p}Surely I would find a girlfriend in such a large pond.
-   {p} I dived in."
+   {p}I dived in."
    nvl clear 
    scene turtle05 with dissolve:
       yalign 0.0
       linear 15.0 yalign 0.6
    pause
-
+   "I immediately realized that something was wrong."
+   "The water tasted strange."
+   "It brought back unpleasant memories."
+   nvl clear 
+   "I had been living in the wild during the big drought at the turn of the millennium."
+   "My home at the time was Lake Alexandrina, which was fed by the River Murray, Australia’s longest river." 
+   "The river had almost stopped flowing, the lake had started to dry up and the water had become foul-tasting.{w} The strange taste was salt."
+   nvl clear 
+   "I was used to greenery but this large pond had nothing growing in it." 
+   "There were neither plants,{w} fish,{w} algae,{w} nor girlfriends."
+   "Even worse,{w} the sides were so steep I could not climb out."
+   "I was trapped."
+   nvl clear 
+   scene turtle06 with dissolve:
+      yalign 0.0
+      linear 15.0 yalign 0.6
+   pause
+   "This pond was very boring.{w} I did my best to pass the hours,{w} admiring a mosaic on the bottom,{w} until I noticed a shadow passing over me."
+   "I looked up, and my owner was standing at the edge of the pond."
+   "{size=50}Whoosh! {/size}"with vpunch 
+   "A large scoop came down and collected me."
+   "I did not like being airborne so retreated into my shell.{w} A few minutes later I was released."
+   "Even before I poked my head out of my shell,{w} I knew I was home again."
+   nvl clear
+   scene turtle07 with blinds:
+      yalign 0.0
+      linear 15.0 yalign 0.6 
+   pause 
+   "My owner returned a few minutes later."
+   "It had been a long day and I was very hungry.{w} My owner hand-fed me my dinner with chopsticks."
+   "An owner that hand feeds you is a good owner."
+   "Perhaps the grass is not always greener away from home."
+   nvl clear 
+   "Anyway,{w} I don’t think I will try escaping again but I hope my owner will find me a girlfriend one day."
+   "After all,{w} I’m still young,{w} for a turtle."
+   nvl clear 
+   scene turtle02 with dissolve 
+   label credits:
+   show text "Story and photos - Alan Noble" with longdis 
+   $renpy.pause(delay=3,hard=True)
+   hide text with dissolve
+   show text "Programming, art and creation - Vela Noble" with longdis
+   $renpy.pause(delay=3,hard=True)
+   hide text with dissolve
+   show text "Music and sound by ??? Could be you!" with longdis
+   $renpy.pause(delay=5,hard=True) 
+   hide text
+   show text "Thank you for playing!" with longdis
+   $renpy.pause(delay=5,hard=True) 
+   hide text 
    # This ends the game.
 
 

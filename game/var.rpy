@@ -1,6 +1,10 @@
 
 
-define narrator = Character(None,nvl_narrator,ctc="ctc_turtle",ctc_position="nestled",ctc_pause ="ctc_turtle")
+#######NARRATOR############################################################
+
+define narrator = Character(None,nvl_narrator,ctc="ctc_turtle",ctc_position="nestled",ctc_pause ="ctc_turtle",callback=callbackcontinue)
+
+############ANIMATIONS#########################################
 
 image ctc_turtle = Animation(
 "gui/ani_turtle1.png", 0.2, #The second number is the time that Ren'Py stays on this one image
@@ -17,3 +21,8 @@ image ctc_nvl2 = Animation(
 "gui/button_arrowr5.png", 0.2,
 ctc_position = "nestled"
 )
+
+
+#####DISSOLVES##########################################
+
+define longdis = Dissolve(5.0)#,alpha=False,time_warp=0.3)
