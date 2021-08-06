@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/01.rpy", line 17: end of line expected.
+    scene turtle1.png with fade
+                 ^
+
+Ren'Py Version: Ren'Py 7.4.7.1862
+Fri Aug  6 12:04:32 2021
