@@ -59,9 +59,13 @@ label start:
       yalign 0.6
       linear 15.0 yalign 0.0
    "As I crossed it, I disturbed a piping shrike having a bath but, fortunately, she was more interested in staying cool than pecking me."
+   "To go past the bird, or to not pass the bird, I wondered."
    menu:
-      "go past piping shrike"
-      "hide"
+      "Go past the piping shrike":
+         "The bird swooped"
+
+      "Hide":
+         "George hid."
    "Eventually,{w} I came to a giant tree,{w} with its low-hanging branches,{w} large bulging roots,{w} and white fruit that tasted like honey—my owner called it a white mulberry."
    nvl clear 
    "A litter of dried leaves accumulated under the tree, smothering the ground cover and the weeds alike.{w} Only some hardy mint plants were holding their own, enjoying the shady refuge and lack of competition."

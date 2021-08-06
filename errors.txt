@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/01.rpy", line 62: Menu does not contain any choices.
-    menu:
-         ^
+File "game/01.rpy", line 66: choice menuitem expects a non-empty block.
+    "hide":
+           ^
 
 Ren'Py Version: Ren'Py 7.4.7.1862
-Fri Aug  6 13:52:46 2021
+Fri Aug  6 13:54:13 2021
