@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/01.rpy", line 20: indentation mismatch.
+File "game/01.rpy", line 56: expected statement.
+    nvl clea r
+       ^
 
 Ren'Py Version: Ren'Py 7.4.7.1862
-Fri Aug  6 12:08:14 2021
+Fri Aug  6 12:40:19 2021

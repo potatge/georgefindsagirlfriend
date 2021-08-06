@@ -8,3 +8,12 @@ image ctc_turtle = Animation(
 "gui/ani_turtle3.png", 0.2,
 "gui/ani_turtle4.png", 0.2,
 ctc_position="nestled") #The position of the CTC, adjust for your own nee
+
+image ctc_nvl2 = Animation(
+"gui/button_arrowr1.png", 0.2,
+"gui/button_arrowr2.png", 0.2,
+"gui/button_arrowr3.png", 0.2,
+"gui/button_arrowr4.png", 0.2,
+"gui/button_arrowr5.png", 0.2,
+ctc_position = "nestled"
+)

@@ -1,17 +1,17 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'gui/ani_turtle1.png'>:
-  File "game/script.rpy", line 25, in script
-    "2020 was a year of disasters.
+While loading <'Image' u'gui/button_arrowr1.png'>:
+  File "game/01.rpy", line 45, in script
+    "It was pointless leaving my home only to be trapped,{w} as I knew I would never find a girlfriend in the courtyard."
   File "renpy/common/00nvl_mode.rpy", line 381, in do_display
     **display_args)
-IOError: Couldn't find file 'gui/ani_turtle1.png'.
+IOError: Couldn't find file 'gui/button_arrowr1.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 25, in script
-    "2020 was a year of disasters.
+  File "game/01.rpy", line 45, in script
+    "It was pointless leaving my home only to be trapped,{w} as I knew I would never find a girlfriend in the courtyard."
   File "renpy/ast.py", line 716, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "renpy/exports.py", line 1417, in say
@@ -60,10 +60,6 @@ Full traceback:
     surf = render(d, width - x, rh, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/viewport.py", line 564, in render
-    rend = renpy.display.render.render(self.children[0], child_width, child_height, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
   File "renpy/display/layout.py", line 1238, in render
     st, at)
   File "render.pyx", line 170, in renpy.display.render.render
@@ -92,9 +88,9 @@ Full traceback:
     surf = image.load()
   File "renpy/display/im.py", line 688, in load
     raise e
-IOError: Couldn't find file 'gui/ani_turtle1.png'.
+IOError: Couldn't find file 'gui/button_arrowr1.png'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.7.1862
 george 1.0
-Fri Aug  6 11:37:51 2021
+Fri Aug  6 12:36:00 2021
