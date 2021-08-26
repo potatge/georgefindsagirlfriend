@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/01.rpy", line 66: choice menuitem expects a non-empty block.
-    "hide":
-           ^
+File "game/options.rpy", line 219: expected 'word' not found.
+    style.default.font = "font/IwataMaruGothicW55-D.ttf"
+         ^
 
 Ren'Py Version: Ren'Py 7.4.7.1862
-Fri Aug  6 13:54:13 2021
+Thu Aug 26 15:26:56 2021

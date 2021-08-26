@@ -2,8 +2,9 @@
 
 #######NARRATOR############################################################
 
-define narrator = Character(None,nvl_narrator,ctc="ctc_turtle",ctc_position="nestled",ctc_pause ="ctc_turtle",callback=callbackcontinue)
-
+define narrator = Character(None,nvl_narrator,ctc="ctc_turtle",ctc_position="nestled",ctc_pause ="ctc_turtle")
+define jp = Character("Jp",kind=nvl, ctc="ctc_lock",color="#9DC677", who_color="#9DC677",ctc_position="nestled",ctc_pause ="ctc_lock")
+#callback=callbackcontinue makes callback end of page icon override 
 ############ANIMATIONS#########################################
 
 image ctc_turtle = Animation(
@@ -21,6 +22,14 @@ image ctc_nvl2 = Animation(
 "gui/button_arrowr5.png", 0.2,
 ctc_position = "nestled"
 )
+
+image ctc_lock = Animation(
+"gui/ani_lock1.png",0.2,
+"gui/ani_lock2.png",0.2,
+"gui/ani_lock3.png",0.2,
+"gui/ani_lock4.png",0.2,
+)
+
 
 
 #####DISSOLVES##########################################

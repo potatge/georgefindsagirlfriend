@@ -23,22 +23,42 @@ label start:
 
    "2020 was a year of disasters.
    {w}We had a very hot summer in Australia which resulted in the country’s worst bushfires in a hundred years." 
+   jp "二千二十年が災害の年だ。
+   {p}オーストラリアでひどく熱い夏によって、百念中で全国最悪の火が起こった。"
+   nvl clear 
    "The constant heat made me antsy and a bit cranky."
+   jp"この熱がちょっとうイライラさせた。"
    nvl clear 
    "No sooner had the fires been extinguished than we were all hit with COVID-19, lock-downs, and restrictions. "
+   jp"火が消してしまう前に全部の地球がコビッドに影響された。"
+   nvl clear 
+
    "At least the shortages in supermarkets didn’t affect me as I was already well-provisioned when the pandemic hit."
+   jp"スーパーの不足がこそあれが私は大丈夫。コブッドが始まる前にたくさん食べ物を持った。"
+
+   nvl clear 
    "Being cooped up at home with no place to go, though, like millions of others, drove me crazy.{w} I’m young and I’m lonely."
+   jp"百万他の人と同じに、家で閉じ込められることが面倒くさい。私は若くて寂しいだよ。"
    nvl clear 
    "I decided that I needed a getaway."
    "Leaving my home is not something I do often, nor do I do it lightly." 
-   "I have very special needs and my home is very comfortable.{w} Leaving it requires exposing myself to the perils of the outside world."
-   
-   "I’m George, an Australian Long-necked Turtle,{w} and my home is one meter by four meter pond in Adelaide,{w} South Australia."
+   jp"休日が必要と思った。
+   {p}家を出ることが簡単タスクじゃない、もよくやりない。"
    nvl clear 
-
+   "I have very special needs and my home is very comfortable.{w} Leaving it requires exposing myself to the perils of the outside world."
+   "大切な条件があるも私の家がとても安楽だ。{w}出ることは私を外の危険に晒す。"
+   nvl clear 
+   "I’m George, an Australian Long-necked Turtle,{w} and my home is one meter by four meter pond in Adelaide,{w} South Australia."
+   jp"私はジョージ、オーストラリアから長い首亀、私の内はアデレードでいちかける四平方メートル池だ。"
+   nvl clear 
    "I felt an overwhelming desire to find a girlfriend,{w} though,{w} but my search needed to be executed carefully."
+   jp"彼女がすごくほしいですが、{w}大切に探してすべき。"
+   nvl clear 
    "First,{w} my owner needed to fill my pond up to the very top.{w} Otherwise, it would be impossible for me to climb over the steep concrete sides."
+   jp"最初に私の所有者は池の頂上まで注いだ。{w} それをしなれば{w}、急なコンクリートを登ることはできません。"
+   nvl clear
    "Secondly,{w} I needed them to leave a crucial door open or I would be trapped inside a courtyard."
+
    "It was pointless leaving my home only to be trapped,{w} as I knew I would never find a girlfriend in the courtyard."
    nvl clear 
    scene turtle02 with dissolve:

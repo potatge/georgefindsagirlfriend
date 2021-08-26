@@ -206,3 +206,25 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+
+init -1 python hide:
+
+    # Fonts that may be chosen by the user
+    renpy.register_style_preference(
+        "text", "RobotoSlab", style.say_dialogue, "font", "font/RobotoSlab-VariableFont.ttf")
+    renpy.register_style_preference(
+      "text","IwataMaru Gothic", style.say_dialogue,"font","font/IwataMaruGothicW55-D.ttf"
+    )
+
+#init python:
+#    translate_font("Japanese", "font/IwataMaruGothicW55-D.ttf")
+
+init python:
+  renpy.register_style_preference(
+  "textsize","Regular",style.say_dialogue,"size",30)
+
+  renpy.register_style_preference(
+  "textsize","Larger",style.say_dialogue,"size",40)
+
+  renpy.register_style_preference(
+  "textsize","Largest",style.say_dialogue,"size",50)

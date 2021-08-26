@@ -50,7 +50,7 @@ define gui.muted_color = u'#84a366'
 define gui.hover_muted_color = u'#adc199'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = u'#FFFFFF'
+#define gui.text_color = u'#FFFFFF'
 define gui.interface_text_color = u'#404040'
 
 
@@ -130,7 +130,7 @@ define gui.namebox_tile = False
 ## The placement of dialogue relative to the textbox. These can be a whole
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
-define gui.dialogue_xpos = 360
+define gui.dialogue_xpos = 200#360
 define gui.dialogue_ypos = 50
 
 ## The maximum width of dialogue text, in pixels.
@@ -378,13 +378,13 @@ define gui.nvl_spacing = 10
 
 ## The position, width, and alignment of the label giving the name of the
 ## speaking character.
-define gui.nvl_name_xpos = 430
+define gui.nvl_name_xpos = -300#430
 define gui.nvl_name_ypos = 0
 define gui.nvl_name_width = 150
 define gui.nvl_name_xalign = 1.0
 
 ## The position, width, and alignment of the dialogue text.
-define gui.nvl_text_xpos = 500#450
+define gui.nvl_text_xpos = 200#500#450
 define gui.nvl_text_ypos = 8
 define gui.nvl_text_width = 800#590
 define gui.nvl_text_xalign = 0.0
