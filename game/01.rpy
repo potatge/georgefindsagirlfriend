@@ -68,11 +68,13 @@ label start:
    "The day finally arrived."
    "My owner had filled up my pond to the brim the night before and accidentally left the door open." 
    "I could sense that it was going to be a hot day,{w} so I climbed out at first light to make an early start." 
+   nvl clear 
    "The first part of my journey involved crossing a giant wooden structure—my owner referred to as a deck."
    nvl clear 
    "Although I felt very exposed, I knew that I could always retreat inside my shell if I was threatened."
-   "I much prefer swimming to walking. The wooden surface was hot and hard and it took me a long time to reach the other side.
-   I finally reached an expanse of native ground cover which was gentle to the touch and much cooler."
+   "I much prefer swimming to walking. The wooden surface was hot and hard and it took me a long time to reach the other side."
+   nvl clear
+   "I finally reached an expanse of native ground cover which was gentle to the touch and much cooler."
    "Botanists refer to it as {i}dichondra repens{/i}, but my owner called it Tom Thumb."
    nvl clear
    scene turtle03 with fade:
@@ -82,14 +84,18 @@ label start:
    "To go past the bird, or to not pass the bird, I wondered."
    menu:
       "Go past the piping shrike":
-         "The bird swooped"
-
+         nvl clear 
+         "The bird swooped."
+         "Luckily, it caught sight of my beady yellow eyes and backed off."
       "Hide":
-         "George hid."
+         nvl clear 
+         "George cowered a bit, but stuck to his ground."
+   nvl clear 
    "Eventually,{w} I came to a giant tree,{w} with its low-hanging branches,{w} large bulging roots,{w} and white fruit that tasted like honey—my owner called it a white mulberry."
    nvl clear 
    "A litter of dried leaves accumulated under the tree, smothering the ground cover and the weeds alike.{w} Only some hardy mint plants were holding their own, enjoying the shady refuge and lack of competition."
-   "The leaves rustled and crunched under my shell,{w} signaling to everyone that I was on the move."
+   "The leaves rustled and crunched under my shell."
+   "Signaling to everyone that I was on the move..."
    "Fortunately,{w} my owner had not yet noticed my absence from the pond."
    nvl clear 
    scene turtle04 with dissolve:
@@ -99,11 +105,13 @@ label start:
    "I had ventured as far as the giant tree before and knew the gate was not much further."
    
    "There was just one more tree to pass which had large green fruit—my owner called it an avocado."
+   nvl clear 
    "Its fruits were heavy enough to crack my shell if they fell on me, so I passed by quickly without looking up."
    "The gate beckoned just one meter beyond.{w} My heart raced as I passed through and entered the side yard for the first time."
    nvl clear 
    "There was another gate,{w} presumably to the outside world,{w} but it was closed,{w} so I kept walking straight ahead."
    "Eventually, I came to another gate which fortunately was open."
+   nvl clear 
    "A rush of blood went to my neck.{w} I could smell a great expanse of water, but it had a different aroma to my pond."
    "Approaching the water,{w} I was on the edge of my carapace.
    {p}Surely I would find a girlfriend in such a large pond.
@@ -119,11 +127,13 @@ label start:
    nvl clear 
    "I had been living in the wild during the big drought at the turn of the millennium."
    "My home at the time was Lake Alexandrina, which was fed by the River Murray, Australia’s longest river." 
+   nvl clear
    "The river had almost stopped flowing, the lake had started to dry up and the water had become foul-tasting.{w} The strange taste was salt."
    nvl clear 
    "I was used to greenery but this large pond had nothing growing in it." 
    "There were neither plants,{w} fish,{w} algae,{w} nor girlfriends."
    "Even worse,{w} the sides were so steep I could not climb out."
+   nvl clear
    "I was trapped."
    nvl clear 
    scene turtle06 with dissolve:
@@ -132,8 +142,10 @@ label start:
    pause
    "This pond was very boring.{w} I did my best to pass the hours,{w} admiring a mosaic on the bottom,{w} until I noticed a shadow passing over me."
    "I looked up, and my owner was standing at the edge of the pond."
+   nvl clear 
    "{size=50}Whoosh! {/size}"with vpunch 
    "A large scoop came down and collected me."
+   nvl clear
    "I did not like being airborne so retreated into my shell.{w} A few minutes later I was released."
    "Even before I poked my head out of my shell,{w} I knew I was home again."
    nvl clear
@@ -144,21 +156,22 @@ label start:
    "My owner returned a few minutes later."
    "It had been a long day and I was very hungry.{w} My owner hand-fed me my dinner with chopsticks."
    "An owner that hand feeds you is a good owner."
-   "Perhaps the grass is not always greener away from home."
+   nvl clear
+   "Perhaps the pond is not always cleaner away from home."
    nvl clear 
-   "Anyway,{w} I don’t think I will try escaping again but I hope my owner will find me a girlfriend one day."
+   "Anyway,{w} I don’t think I will try escaping again but..."
+   nvl clear
+   "I hope my owner will find me a girlfriend one day."
+   nvl clear
    "After all,{w} I’m still young,{w} for a turtle."
    nvl clear 
    scene turtle02 with dissolve 
    label credits:
-   show text "Story and photos - Alan Noble" with longdis 
+   show text "Story and photos by Alan Noble"  with longdis 
    $renpy.pause(delay=3,hard=True)
    hide text with dissolve
-   show text "Programming, art and creation - Vela Noble" with longdis
+   show text "Programming - Vela Noble" with longdis
    $renpy.pause(delay=3,hard=True)
-   hide text with dissolve
-   show text "Music and sound by ??? Could be you!" with longdis
-   $renpy.pause(delay=5,hard=True) 
    hide text
    show text "Thank you for playing!" with longdis
    $renpy.pause(delay=5,hard=True) 

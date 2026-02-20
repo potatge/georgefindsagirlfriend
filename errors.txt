@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/options.rpy", line 219: expected 'word' not found.
-    style.default.font = "font/IwataMaruGothicW55-D.ttf"
-         ^
+File "game/01.rpy", line 87: expected statement.
+    nv clear
+             ^
 
-Ren'Py Version: Ren'Py 7.4.7.1862
-Thu Aug 26 15:26:56 2021
+Ren'Py Version: Ren'Py 8.5.2.26010301
+Fri Feb 20 18:57:34 2026
