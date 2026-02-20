@@ -170,7 +170,7 @@ label start:
    show text "Story and photos by Alan Noble"  with longdis 
    $renpy.pause(delay=3,hard=True)
    hide text with dissolve
-   show text "Programming - Vela Noble" with longdis
+   show text "Programming by Vela Noble" with longdis
    $renpy.pause(delay=3,hard=True)
    hide text
    show text "Thank you for playing!" with longdis
